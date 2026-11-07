@@ -138,6 +138,8 @@ section { margin-bottom: 72px; scroll-margin-top: 48px; }
 .rows .tags { margin-top: 8px; }
 .pubs b { color: var(--text); font-weight: 600; }
 .org { display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: start; }
+.awards { margin-top: 36px; }
+.awards p { color: var(--muted); font-size: 14.5px; margin-bottom: 8px; }
 .org img, .edu img { width: 40px; height: 40px; border-radius: 9px; object-fit: contain; background: #fff; border: 1px solid var(--line); padding: 3px; }
 .logo-ph { width: 40px; height: 40px; border-radius: 9px; border: 1px solid var(--line); background: var(--panel); display: grid; place-items: center; font-size: 9px; font-weight: 700; color: var(--faint); letter-spacing: .02em; }
 .cols p.edu { display: grid; grid-template-columns: 40px 1fr; gap: 12px; align-items: start; }
