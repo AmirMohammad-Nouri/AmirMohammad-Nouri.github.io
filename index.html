@@ -12,240 +12,242 @@
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f766e'/><text x='32' y='42' font-family='Arial' font-size='26' font-weight='700' fill='white' text-anchor='middle'>AN</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a href="#top" class="name">Amirmohammad Nouri</a>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5C5.73.5.75 5.48.75 11.76c0 4.96 3.22 9.17 7.69 10.66.56.1.77-.24.77-.54v-1.9c-3.13.68-3.79-1.51-3.79-1.51-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.57 0-1.23.44-2.24 1.16-3.03-.12-.28-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.61 1.55.23 2.7.11 2.98.72.79 1.16 1.8 1.16 3.03 0 4.33-2.64 5.28-5.15 5.56.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.78.54 4.46-1.49 7.68-5.7 7.68-10.66C23.25 5.48 18.27.5 12 .5Z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.8 0 0 .77 0 1.73v20.54C0 23.23.8 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+  <symbol id="i-medium" viewBox="0 0 24 24"><path fill="currentColor" d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12Zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11Zm0 .5 9 6 9-6"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M7 17 17 7M8 7h9v9"/></symbol>
+</svg>
 
-<main id="top">
+<div class="layout">
 
-  <section class="intro wrap">
-    <img class="portrait" src="assets/img/avatar.webp" alt="Amirmohammad Nouri" width="112" height="112" />
+  <!-- ============ SIDEBAR ============ -->
+  <header class="side">
     <div>
-      <h1>AI engineer in medical AI</h1>
-      <p class="lead">
-        I build machine learning systems for healthcare. I started with medical image analysis,
-        building segmentation, detection and landmark models for CT, ultrasound, endoscopy and radiography.
-        From there I moved to physiological signals, and I now work on LLM systems for health:
+      <img class="portrait" src="assets/img/avatar.webp" alt="Amirmohammad Nouri" width="84" height="84" />
+      <h1>Amirmohammad Nouri</h1>
+      <p class="role">AI Engineer · Medical AI</p>
+      <p class="tagline">I build machine learning systems for healthcare, from medical imaging to LLMs.</p>
+
+      <nav class="toc" aria-label="Sections">
+        <a href="#about"><span></span>About</a>
+        <a href="#projects"><span></span>Projects</a>
+        <a href="#experience"><span></span>Experience</a>
+        <a href="#publications"><span></span>Publications</a>
+      </nav>
+    </div>
+
+    <div class="side-foot">
+      <a class="btn" href="mailto:amir.mohammad.nouri2000@gmail.com"><svg><use href="#i-mail"/></svg>Get in touch</a>
+      <div class="socials">
+        <a href="https://github.com/AmirMohammad-Nouri" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+        <a href="https://www.linkedin.com/in/amir-mohammad-nouri" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+        <a href="https://medium.com/@amir.mohammad.nouri2000" target="_blank" rel="noopener" aria-label="Medium"><svg><use href="#i-medium"/></svg></a>
+      </div>
+      <p class="where">Oulu, Finland · Open to roles</p>
+    </div>
+  </header>
+
+  <!-- ============ CONTENT ============ -->
+  <main>
+
+    <section id="about">
+      <h2 class="sec">About</h2>
+      <p>
+        I'm an AI engineer working in medicine. I spent two years building clinical imaging models for CT, ultrasound,
+        endoscopy and radiography, then moved to wearable biosignals. Today I work on <strong>LLM systems for health</strong>:
         retrieval over medical knowledge, health-aware recommendation, and agents that keep a human in the loop.
+        I'm doing an MSc in Biomedical Engineering at the University of Oulu.
       </p>
-      <p class="meta">MSc Biomedical Engineering, University of Oulu · Oulu, Finland</p>
-      <p class="links">
-        <a href="mailto:amir.mohammad.nouri2000@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/amir-mohammad-nouri" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/AmirMohammad-Nouri" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://medium.com/@amir.mohammad.nouri2000" target="_blank" rel="noopener">Medium</a>
-      </p>
-    </div>
-  </section>
 
-  <section class="wrap">
-    <h2 class="label">Focus over time</h2>
-    <ol class="path">
-      <li>
-        <span class="when">2021 – 2023</span>
-        <strong>Computer vision</strong>
-        <span>Detection, SLAM and control for autonomous drones.</span>
-      </li>
-      <li>
-        <span class="when">2024 – 2025</span>
-        <strong>Medical imaging</strong>
-        <span>Clinical models for CT, ultrasound, endoscopy and radiography.</span>
-      </li>
-      <li>
-        <span class="when">2025 – 2026</span>
-        <strong>Biosignals</strong>
-        <span>ECG, PPG and skin-conductance pipelines on wearable and edge hardware.</span>
-      </li>
-      <li class="now">
-        <span class="when">2026 – now</span>
-        <strong>LLMs for health</strong>
-        <span>Medical RAG, health recommenders and human-in-the-loop agents.</span>
-      </li>
-    </ol>
-  </section>
+      <ol class="path" aria-label="Focus over time">
+        <li><b>Computer vision</b><span>2021–23</span></li>
+        <li><b>Medical imaging</b><span>2024–25</span></li>
+        <li><b>Biosignals</b><span>2025–26</span></li>
+        <li class="now"><b>LLMs for health</b><span>2026–now</span></li>
+      </ol>
 
-  <section id="projects" class="wrap">
-    <h2 class="label">Projects</h2>
+      <ul class="highlights">
+        <li><b>3rd place</b> JunctionX Oulu 2026</li>
+        <li><b>4</b> papers in medical AI and robotics</li>
+        <li><b>1</b> AI patent pending</li>
+        <li><b>94.7%</b> stress detection accuracy</li>
+      </ul>
+    </section>
 
-    <h3 class="group">Current work: LLMs, agents and sensing for health</h3>
-    <div class="grid grid-2">
+    <section id="projects">
+      <h2 class="sec">Projects</h2>
 
-      <article class="card">
-        <a class="thumb" href="https://github.com/AmirMohammad-Nouri/MultiHopRAG" target="_blank" rel="noopener"><img src="assets/img/rag-architecture.webp" alt="MultiHopRAG architecture diagram" loading="lazy" /></a>
-        <div class="card-body">
-          <h4><a href="https://github.com/AmirMohammad-Nouri/MultiHopRAG" target="_blank" rel="noopener">MultiHopRAG: medical question answering with a knowledge graph</a></h4>
-          <p>Combines a knowledge graph with vector search to answer medical questions whose answer spans several articles. It uses MedlinePlus content and runs fully locally on Qwen3-1.7B, Qdrant and Neo4j, without a RAG framework.</p>
-          <p class="facts">2026 · Graph RAG · Neo4j · Qdrant · Ollama</p>
-          <p class="card-links"><a href="https://github.com/AmirMohammad-Nouri/MultiHopRAG" target="_blank" rel="noopener">GitHub →</a></p>
+      <h3 class="group">LLMs, agents and sensing for health</h3>
+      <ul class="projects">
+
+        <li class="proj">
+          <img src="assets/img/pinni.webp" alt="Pinni app screens: news map, news list and an explained story" loading="lazy" />
+          <div>
+            <p class="award">🏆 3rd place · JunctionX Oulu 2026</p>
+            <h4><a class="stretch" href="https://github.com/The-Arctic-byte/Pinni" target="_blank" rel="noopener">Pinni: discover local news on a map <svg><use href="#i-out"/></svg></a></h4>
+            <p>An app that puts all of Oulu's news on one map: zoom from your street out to the world. Stories are ranked for each reader, explained in their language and checked by a human editor. I built the agent pipeline (an MCP server with 10 tools, classification, translation into 4 languages, hybrid search), and stories on health, housing or safety always go to an editor.</p>
+            <p class="tags"><span>LLM agents</span><span>MCP</span><span>SwiftUI</span><span>Team of 3</span></p>
+          </div>
+        </li>
+
+        <li class="proj">
+          <img src="assets/img/rag-architecture.webp" alt="MultiHopRAG architecture diagram" loading="lazy" />
+          <div>
+            <h4><a class="stretch" href="https://github.com/AmirMohammad-Nouri/MultiHopRAG" target="_blank" rel="noopener">MultiHopRAG: medical Q&amp;A with a knowledge graph <svg><use href="#i-out"/></svg></a></h4>
+            <p>Combines a knowledge graph with vector search to answer medical questions whose answers span several articles. Built on MedlinePlus and runs fully locally with Qwen3-1.7B, Qdrant and Neo4j.</p>
+            <p class="tags"><span>Graph RAG</span><span>Neo4j</span><span>Qdrant</span><span>Ollama</span></p>
+          </div>
+        </li>
+
+        <li class="proj">
+          <img src="assets/img/foodrec.webp" alt="FoodRec system diagram" loading="lazy" class="light" />
+          <div>
+            <h4><a class="stretch" href="https://amirmohammad-nouri.github.io/foodrec-site/" target="_blank" rel="noopener">FoodRec: health-aware recipe recommendation <svg><use href="#i-out"/></svg></a></h4>
+            <p>Ranks 9,605 recipes by healthiness, sustainability and convenience, and explains every score. A supervisor agent notices when a user's choices drift from their stated goals and asks before changing anything. Tuned with a 300-run study using simulated users.</p>
+            <p class="tags"><span>Recommender systems</span><span>LLM agents</span><span>Knowledge graph</span></p>
+            <p class="more"><a href="https://amirmohammad-nouri.github.io/foodrec-site/" target="_blank" rel="noopener">Project site</a><a href="https://github.com/AmirMohammad-Nouri/agentic_recom_sys" target="_blank" rel="noopener">GitHub</a></p>
+          </div>
+        </li>
+
+        <li class="proj">
+          <img src="assets/img/stress-dashboard.webp" alt="Edge AI Stress Sense dashboard" loading="lazy" class="tl" />
+          <div>
+            <h4><a class="stretch" href="https://amirmohammad-nouri.github.io/edge-ai-stress-sense/" target="_blank" rel="noopener">Edge AI Stress Sense: voice-triggered stress measurement <svg><use href="#i-out"/></svg></a></h4>
+            <p>Say a command and two wireless boards (ESP32, ESP8266) stream pulse and skin-conductance data to a WESAD-trained model. It reaches 94.7% accuracy in leave-one-subject-out tests, compared with 88.3% for the WESAD paper's wrist sensors.</p>
+            <p class="tags"><span>Biosignals</span><span>ESP32</span><span>scikit-learn</span><span>Speech</span></p>
+            <p class="more"><a href="https://amirmohammad-nouri.github.io/edge-ai-stress-sense/" target="_blank" rel="noopener">Project site</a><a href="https://github.com/AmirMohammad-Nouri/edge-ai-stress-sense" target="_blank" rel="noopener">GitHub</a></p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 class="group">Medical imaging at SIMUT · 2024–2025</h3>
+      <ul class="projects small">
+        <li class="proj">
+          <img src="assets/img/ceph.webp" alt="" loading="lazy" />
+          <div>
+            <h4><a class="stretch" href="https://www.linkedin.com/posts/amir-mohammad-nouri_artificialintelligence-ai-computervision-activity-7368253060206202884-AHf6" target="_blank" rel="noopener">Cephalometric landmark detection <svg><use href="#i-out"/></svg></a></h4>
+            <p>Vision Transformer for orthodontic treatment planning in children. Patent pending; paper under review.</p>
+            <p class="tags"><span>ViT</span><span>Radiography</span></p>
+          </div>
+        </li>
+        <li class="proj">
+          <img src="assets/img/healthyscope.webp" alt="" loading="lazy" />
+          <div>
+            <h4><a class="stretch" href="https://www.linkedin.com/posts/amir-mohammad-nouri_ai-healthcare-medicalimaging-activity-7372578269193211904-CAMK" target="_blank" rel="noopener">HealthyScope: colonoscopy AI <svg><use href="#i-out"/></svg></a></h4>
+            <p>Polyp detection, segmentation and classification for early colorectal cancer prevention.</p>
+            <p class="tags"><span>Detection</span><span>Segmentation</span></p>
+          </div>
+        </li>
+        <li class="proj">
+          <img src="assets/img/pe.webp" alt="" loading="lazy" />
+          <div>
+            <h4><a class="stretch" href="https://www.linkedin.com/posts/amir-mohammad-nouri_deeppe-medicalimaging-pulmonaryembolism-ugcPost-7396423721638461440-N0zh/" target="_blank" rel="noopener">Pulmonary embolism segmentation <svg><use href="#i-out"/></svg></a></h4>
+            <p>U-Net and MONAI pipeline for emboli in CT angiography.</p>
+            <p class="tags"><span>U-Net</span><span>MONAI</span><span>CT</span></p>
+          </div>
+        </li>
+        <li class="proj">
+          <img src="assets/img/fetal.webp" alt="" loading="lazy" class="contain" />
+          <div>
+            <h4><a class="stretch" href="https://www.linkedin.com/posts/mostafa-ghelich-oghli_simuts-ai-powered-solution-the-future-ugcPost-7231615047481851904-KeFV" target="_blank" rel="noopener">Fetal ultrasound biometry <svg><use href="#i-out"/></svg></a></h4>
+            <p>YOLOv8 measurement of head circumference and nuchal translucency. Paper under review.</p>
+            <p class="tags"><span>YOLOv8</span><span>Ultrasound</span></p>
+          </div>
+        </li>
+        <li class="proj">
+          <img src="assets/img/echo.webp" alt="" loading="lazy" />
+          <div>
+            <h4><a class="stretch" href="https://www.linkedin.com/posts/amir-mohammad-nouri_artificialintelligence-medicalimaging-vectorflow-activity-7322564285799317504-BaWG" target="_blank" rel="noopener">Echocardiography: blood flow and strain <svg><use href="#i-out"/></svg></a></h4>
+            <p>Vector flow imaging and speckle tracking for cardiac function.</p>
+            <p class="tags"><span>Speckle tracking</span><span>Cardiac</span></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2 class="sec">Experience</h2>
+      <ul class="rows">
+        <li>
+          <span class="when">Mar – Sep 2026</span>
+          <div><h4>AI Engineer · Moj Co.</h4><p>Real-time vision for live sports broadcasts: camera calibration, field localisation, virtual ads and player tracking.</p><p class="tags"><span>C++</span><span>OpenCV</span></p></div>
+        </li>
+        <li>
+          <span class="when">Dec 2025 – Mar 2026</span>
+          <div><h4>AI &amp; Software Engineer · Vitruvian Shield</h4><p>Real-time ECG, PPG and motion pipeline for physiological state estimation and anomaly detection on wearables.</p><p class="tags"><span>Biosignals</span><span>PyTorch</span></p></div>
+        </li>
+        <li>
+          <span class="when">Jan 2024 – Dec 2025</span>
+          <div><h4>AI Engineer, Medical Image Analysis · SIMUT</h4><p>Built and validated clinical AI for radiography, colonoscopy, CT and ultrasound, from research to deployment.</p><p class="tags"><span>MONAI</span><span>ViT</span><span>YOLOv8</span></p></div>
+        </li>
+        <li>
+          <span class="when">2021 – 2023</span>
+          <div><h4>Research Assistant · Mechatronics Research Lab</h4><p>Vision-based control, detection and SLAM for drones. Won the International UAV Robot League twice; RoboCup 2023.</p><p class="tags"><span>ROS</span><span>SLAM</span></p></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2 class="sec">Publications</h2>
+      <ul class="rows pubs">
+        <li>
+          <span class="when">2025</span>
+          <div><h4>ViT-based Lateral Cephalometric Radiography Processing for Treatment Planning with Removable Orthodontic Appliances in Children</h4><p><b>Nouri, A.</b>, Rajaei, I., et al. · Orthodontics &amp; Craniofacial Research · <i>under review</i></p></div>
+        </li>
+        <li>
+          <span class="when">2025</span>
+          <div><h4>A YOLOv8 Deep Learning Model to Measure Nuchal Translucency in First-Trimester Ultrasound Screening</h4><p><b>Nouri, A.</b>, Arefi, S., et al. · Int. J. Imaging Systems and Technology · <i>under review</i></p></div>
+        </li>
+        <li>
+          <span class="when">2025</span>
+          <div><h4><a href="https://www.researchgate.net/publication/393666495_Automated_AI-Driven_Measurement_of_Kidney_Length_in_Ultrasound_Images_A_Validation_Study_in_Adult_and_Pediatric_Groups" target="_blank" rel="noopener">Automated AI-Driven Measurement of Kidney Length in Ultrasound Images <svg><use href="#i-out"/></svg></a></h4><p>Amini, L., Ghelich, M., …, <b>Nouri, A.</b>, et al. · Scientific Reports · <i>preprint</i></p></div>
+        </li>
+        <li>
+          <span class="when">2024</span>
+          <div><h4><a href="https://ieeexplore.ieee.org/document/10496632" target="_blank" rel="noopener">A Vision-Based Approach for Quadrotor Line Following with Sliding Mode Controller <svg><use href="#i-out"/></svg></a></h4><p>Hazareh, G., …, <b>Nouri, A.</b>, et al. · IEEE ICAIR 2024</p></div>
+        </li>
+      </ul>
+
+      <div class="cols">
+        <div>
+          <h3 class="group">Education</h3>
+          <p><b>MSc Biomedical Engineering</b><br>University of Oulu · 2026–2028</p>
+          <p><b>BSc Biomedical Engineering</b><br>Qazvin Islamic Azad University · 2021–2024 · GPA 3.8/4.0</p>
         </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb" href="https://amirmohammad-nouri.github.io/edge-ai-stress-sense/" target="_blank" rel="noopener"><img src="assets/img/stress-dashboard.webp" alt="Edge AI Stress Sense live dashboard" loading="lazy" style="object-position: top left" /></a>
-        <div class="card-body">
-          <h4><a href="https://amirmohammad-nouri.github.io/edge-ai-stress-sense/" target="_blank" rel="noopener">Edge AI Stress Sense: voice-triggered stress measurement</a></h4>
-          <p>After a spoken command, ESP32 and ESP8266 boards stream pulse and skin-conductance data over WiFi, and a WESAD-trained model estimates stress. It reaches 94.7% accuracy (leave-one-subject-out), compared with 88.3% for the WESAD paper's wrist sensors.</p>
-          <p class="facts">2026 · Biosignals · ESP32 · scikit-learn · Speech</p>
-          <p class="card-links"><a href="https://amirmohammad-nouri.github.io/edge-ai-stress-sense/" target="_blank" rel="noopener">Project site →</a><a href="https://github.com/AmirMohammad-Nouri/edge-ai-stress-sense" target="_blank" rel="noopener">GitHub →</a></p>
+        <div>
+          <h3 class="group">Awards &amp; patents</h3>
+          <p>3rd place, JunctionX Oulu 2026 (Pinni)</p>
+          <p>1st place, International UAV Robot League, 2022 &amp; 2023</p>
+          <p>Patent pending: ML cephalometric system · 2 registered patents</p>
         </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb light" href="https://github.com/AmirMohammad-Nouri/agentic_recom_sys" target="_blank" rel="noopener"><img src="assets/img/foodrec.webp" alt="FoodRec system diagram" loading="lazy" /></a>
-        <div class="card-body">
-          <h4><a href="https://github.com/AmirMohammad-Nouri/agentic_recom_sys" target="_blank" rel="noopener">FoodRec: health-aware recipe recommendation</a></h4>
-          <p>Ranks 9,605 recipes by healthiness, sustainability and convenience. A supervisor agent notices when a user's choices drift from their stated goals and asks before changing anything. I tuned it with a 300-run study using simulated participants.</p>
-          <p class="facts">2026 · Recommender systems · LLM agents · Knowledge graph</p>
-          <p class="card-links"><a href="https://github.com/AmirMohammad-Nouri/agentic_recom_sys" target="_blank" rel="noopener">GitHub →</a></p>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb text" href="https://github.com/The-Arctic-byte/Pinni" target="_blank" rel="noopener"><span>Pinni</span></a>
-        <div class="card-body">
-          <h4><a href="https://github.com/The-Arctic-byte/Pinni" target="_blank" rel="noopener">Pinni: multilingual local news with human review</a></h4>
-          <p>In a three-person team, I built the agent side: an MCP server with 10 tools, a pipeline that classifies, explains and translates stories into four languages, and hybrid search. Stories about health, housing, money or safety always go to a human editor.</p>
-          <p class="facts">2026 · MCP · Agents · Hybrid search · Team of 3</p>
-          <p class="card-links"><a href="https://github.com/The-Arctic-byte/Pinni" target="_blank" rel="noopener">GitHub →</a></p>
-        </div>
-      </article>
-    </div>
-
-    <h3 class="group">Medical imaging at SIMUT (2024 – 2025)</h3>
-    <div class="grid grid-3">
-
-      <article class="card">
-        <a class="thumb" href="https://www.linkedin.com/posts/amir-mohammad-nouri_artificialintelligence-ai-computervision-activity-7368253060206202884-AHf6" target="_blank" rel="noopener"><img src="assets/img/ceph.webp" alt="Cephalometric landmark detection" loading="lazy" /></a>
-        <div class="card-body">
-          <h4><a href="https://www.linkedin.com/posts/amir-mohammad-nouri_artificialintelligence-ai-computervision-activity-7368253060206202884-AHf6" target="_blank" rel="noopener">Cephalometric landmark detection</a></h4>
-          <p>A Vision Transformer that locates landmarks on lateral cephalograms for orthodontic treatment planning in children. Patent pending; paper under review.</p>
-          <p class="facts">ViT · Radiography</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb" href="https://www.linkedin.com/posts/amir-mohammad-nouri_ai-healthcare-medicalimaging-activity-7372578269193211904-CAMK" target="_blank" rel="noopener"><img src="assets/img/healthyscope.webp" alt="HealthyScope colonoscopy AI" loading="lazy" /></a>
-        <div class="card-body">
-          <h4><a href="https://www.linkedin.com/posts/amir-mohammad-nouri_ai-healthcare-medicalimaging-activity-7372578269193211904-CAMK" target="_blank" rel="noopener">HealthyScope: colonoscopy AI</a></h4>
-          <p>Detects, segments and classifies polyps during colonoscopy to support early colorectal cancer prevention.</p>
-          <p class="facts">Detection · Segmentation · Endoscopy</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb" href="https://www.linkedin.com/posts/amir-mohammad-nouri_deeppe-medicalimaging-pulmonaryembolism-ugcPost-7396423721638461440-N0zh/" target="_blank" rel="noopener"><img src="assets/img/pe.webp" alt="Pulmonary embolism segmentation" loading="lazy" /></a>
-        <div class="card-body">
-          <h4><a href="https://www.linkedin.com/posts/amir-mohammad-nouri_deeppe-medicalimaging-pulmonaryembolism-ugcPost-7396423721638461440-N0zh/" target="_blank" rel="noopener">Pulmonary embolism segmentation</a></h4>
-          <p>A U-Net and MONAI pipeline that segments pulmonary emboli in CT angiography.</p>
-          <p class="facts">U-Net · MONAI · CT</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb contain" href="https://www.linkedin.com/posts/mostafa-ghelich-oghli_simuts-ai-powered-solution-the-future-ugcPost-7231615047481851904-KeFV" target="_blank" rel="noopener"><img src="assets/img/fetal.webp" alt="Fetal ultrasound biometry" loading="lazy" /></a>
-        <div class="card-body">
-          <h4><a href="https://www.linkedin.com/posts/mostafa-ghelich-oghli_simuts-ai-powered-solution-the-future-ugcPost-7231615047481851904-KeFV" target="_blank" rel="noopener">Fetal ultrasound biometry</a></h4>
-          <p>YOLOv8 models that measure fetal head circumference and nuchal translucency in first-trimester ultrasound. Paper under review.</p>
-          <p class="facts">YOLOv8 · Ultrasound</p>
-        </div>
-      </article>
-
-      <article class="card">
-        <a class="thumb" href="https://www.linkedin.com/posts/amir-mohammad-nouri_artificialintelligence-medicalimaging-vectorflow-activity-7322564285799317504-BaWG" target="_blank" rel="noopener"><img src="assets/img/echo.webp" alt="Echocardiography vector flow imaging" loading="lazy" /></a>
-        <div class="card-body">
-          <h4><a href="https://www.linkedin.com/posts/amir-mohammad-nouri_artificialintelligence-medicalimaging-vectorflow-activity-7322564285799317504-BaWG" target="_blank" rel="noopener">Echocardiography: blood flow and strain</a></h4>
-          <p>Vector flow imaging and speckle tracking to visualise blood flow and measure heart-muscle strain.</p>
-          <p class="facts">Speckle tracking · Cardiac ultrasound</p>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="experience" class="wrap">
-    <h2 class="label">Experience</h2>
-    <ul class="rows">
-      <li>
-        <span class="when">Mar – Sep 2026</span>
-        <div><strong>AI Engineer</strong>, Moj Co. · Tehran<br><span>Real-time computer vision for live sports broadcasts: camera calibration, field localisation, virtual advertising and player tracking (C++, OpenCV).</span></div>
-      </li>
-      <li>
-        <span class="when">Dec 2025 – Mar 2026</span>
-        <div><strong>AI &amp; Software Engineer</strong>, Vitruvian Shield · Yerevan (hybrid)<br><span>Real-time ECG, PPG and motion pipeline for physiological state estimation and anomaly detection on wearables.</span></div>
-      </li>
-      <li>
-        <span class="when">Jan 2024 – Dec 2025</span>
-        <div><strong>AI Engineer, Medical Image Analysis</strong>, Med Fanavaran Plus (SIMUT) · Karaj<br><span>Built and validated clinical AI for radiography, colonoscopy, CT and ultrasound, from research through to deployment.</span></div>
-      </li>
-      <li>
-        <span class="when">2021 – 2023</span>
-        <div><strong>Research Assistant</strong>, Mechatronics Research Laboratory · Qazvin<br><span>Vision-based control, object detection and SLAM for drones. Won the International UAV Robot League twice and competed at RoboCup 2023.</span></div>
-      </li>
-    </ul>
-  </section>
-
-  <section id="publications" class="wrap">
-    <h2 class="label">Publications</h2>
-    <ul class="rows">
-      <li>
-        <span class="when">2025</span>
-        <div><strong>Designing a ViT-based Lateral Cephalometric Radiography Processing System for Treatment Planning with Removable Orthodontic Appliances in Children</strong><br><span>Nouri, A., Rajaei, I., et al. · Orthodontics &amp; Craniofacial Research · under review</span></div>
-      </li>
-      <li>
-        <span class="when">2025</span>
-        <div><strong>Development and Evaluation of a Deep Learning Model Using YOLOv8 to Measure Nuchal Translucency from Obstetric Ultrasound Images in First-Trimester Screening</strong><br><span>Nouri, A., Arefi, S., et al. · Int. J. Imaging Systems and Technology · under review</span></div>
-      </li>
-      <li>
-        <span class="when">2025</span>
-        <div><a href="https://www.researchgate.net/publication/393666495_Automated_AI-Driven_Measurement_of_Kidney_Length_in_Ultrasound_Images_A_Validation_Study_in_Adult_and_Pediatric_Groups" target="_blank" rel="noopener"><strong>Automated AI-Driven Measurement of Kidney Length in Ultrasound Images: A Validation Study in Adult and Pediatric Groups</strong></a><br><span>Amini, L., Ghelich, M., Tarzamni, M.K., Moradi, K., Nouri, A., et al. · Scientific Reports · preprint</span></div>
-      </li>
-      <li>
-        <span class="when">2024</span>
-        <div><a href="https://ieeexplore.ieee.org/document/10496632" target="_blank" rel="noopener"><strong>A Vision-Based Approach for Quadrotor Line Following with Sliding Mode Controller</strong></a><br><span>Hazareh, G., Azizi, K., Mazloumi, A., Nouri, A., et al. · IEEE ICAIR 2024</span></div>
-      </li>
-    </ul>
-
-    <div class="cols">
-      <div>
-        <h3 class="sub">Education</h3>
-        <ul class="plain">
-          <li><strong>MSc Biomedical Engineering</strong>, University of Oulu · 2026 – 2028</li>
-          <li><strong>BSc Biomedical Engineering (Bioelectric)</strong>, Qazvin Islamic Azad University · 2021 – 2024 · GPA 3.8 / 4.0</li>
-        </ul>
       </div>
-      <div>
-        <h3 class="sub">Patents and awards</h3>
-        <ul class="plain">
-          <li>Patent under review: ML-based cephalometric radiography system (2025)</li>
-          <li>Two registered patents: antibacterial hospital bed (2021), carbon-nanocomposite horseshoes (2016)</li>
-          <li>1st place, International UAV Robot League (2022, 2023)</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="wrap contact">
-    <h2 class="label">Contact</h2>
-    <p>I'm open to AI engineering roles and research collaborations in medical AI.
-      You can reach me at <a href="mailto:amir.mohammad.nouri2000@gmail.com">amir.mohammad.nouri2000@gmail.com</a>
-      or on <a href="https://www.linkedin.com/in/amir-mohammad-nouri" target="_blank" rel="noopener">LinkedIn</a>.</p>
-  </section>
-</main>
+    <footer>
+      <p>© 2026 Amirmohammad Nouri · <a href="mailto:amir.mohammad.nouri2000@gmail.com">amir.mohammad.nouri2000@gmail.com</a></p>
+    </footer>
+  </main>
+</div>
 
-<footer class="wrap">© 2026 Amirmohammad Nouri</footer>
-
+<script>
+  // highlight the current section in the sidebar
+  (function () {
+    var links = document.querySelectorAll('.toc a');
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id); });
+      });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+    document.querySelectorAll('main section[id]').forEach(function (s) { obs.observe(s); });
+  })();
+</script>
 </body>
 </html>
