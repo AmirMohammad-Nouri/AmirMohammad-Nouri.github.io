@@ -1,0 +1,68 @@
+/* Project detail pages (projects/*.html). Builds on style.css tokens. */
+.pwrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+
+.pbar { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.pbar .pwrap { display: flex; justify-content: space-between; align-items: center; height: 56px; gap: 16px; }
+.back { font-weight: 600; font-size: 14.5px; }
+.back:hover, .next:hover { color: var(--accent); }
+.next { font-size: 14px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.project-page main { padding: 48px 24px 64px; }
+.phead h1 { font-size: 40px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+.phead .award { display: inline-block; font-size: 13px; font-weight: 600; color: var(--gold); margin-bottom: 10px; padding: 4px 10px; border-radius: 99px; border: 1px solid color-mix(in srgb, var(--gold) 40%, transparent); }
+.psub { margin-top: 10px; font-size: 19px; color: var(--muted); }
+.pmeta { margin-top: 8px; font-size: 14px; color: var(--faint); }
+.plinks { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.pbtn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 15px; border-radius: 9px; font-size: 14.5px; font-weight: 500; border: 1px solid var(--line); background: var(--panel); transition: border-color .2s, color .2s; }
+.pbtn:first-child { background: var(--text); color: var(--bg); border-color: var(--text); }
+.pbtn:hover { border-color: var(--accent); }
+.pbtn:first-child:hover { opacity: .85; }
+.pbtn svg { width: 16px; height: 16px; }
+
+.hero-img { margin: 32px 0 8px; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: var(--panel); }
+.hero-img img { width: 100%; max-height: 520px; object-fit: cover; }
+.hero-img.light { background: #fff; }
+.hero-img.light img, .hero-img.contain img { object-fit: contain; padding: 12px; }
+
+.project-page section { margin: 40px 0 0; }
+.project-page h2 { font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--faint); margin-bottom: 14px; }
+.lead { font-size: 17px; color: var(--text); line-height: 1.7; }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 28px; }
+.facts div { padding: 14px 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+.facts b { display: block; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
+.facts span { font-size: 13px; color: var(--muted); line-height: 1.4; display: block; margin-top: 2px; }
+
+.pts { list-style: none; display: grid; gap: 12px; }
+.pts li { position: relative; padding-left: 20px; color: var(--muted); font-size: 15.5px; }
+.pts li::before { content: ""; position: absolute; left: 2px; top: 10px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.pts b { color: var(--text); font-weight: 600; }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font-size: 12px; font-weight: 600; color: var(--faint); text-transform: uppercase; letter-spacing: 0.04em; }
+tr:last-child td { border-bottom: 0; }
+td:not(:first-child), th:not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; }
+.note { margin-top: 8px; font-size: 13px; color: var(--faint); }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.gallery figure { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--panel); }
+.gallery img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.gallery img.light { background: #fff; object-fit: contain; padding: 8px; }
+.gallery figcaption { font-size: 13px; color: var(--muted); padding: 10px 12px; border-top: 1px solid var(--line); }
+.gallery.phones { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
+.gallery.phones img { aspect-ratio: 9 / 19.5; object-fit: cover; object-position: top; }
+
+.pfoot { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.pfoot .plinks { margin-top: 0; }
+
+@media (max-width: 640px) {
+  .pwrap { padding: 0 16px; }
+  .project-page main { padding: 32px 16px 48px; }
+  .phead h1 { font-size: 30px; }
+  .psub { font-size: 17px; }
+  .lead { font-size: 16px; }
+  .next { display: none; }
+  .pfoot .next { display: inline; }
+}
